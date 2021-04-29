@@ -32,7 +32,7 @@ function lose(userChoice, computerChoice) {
 function draw(userChoice, computerChoice) {
 userScore_span.innerHTML = userScore;
 computerScore_span.innerHTML = computerScore;
-result_p.innerHTML = userChoice + " equals " + computerChoice + " Its a Draw! "
+result_p.innerHTML = userChoice + " and " + computerChoice + " Makes Its a Draw! "
 
 }
 
